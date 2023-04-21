@@ -1,0 +1,15 @@
+diff -Naur dropbear-2022.83/dbutil.c dropbear-2022.83-patch/dbutil.c
+--- dropbear-2022.83/dbutil.c	2022-11-14 09:30:00.000000000 -0500
++++ dropbear-2022.83-patch/dbutil.c	2023-04-21 17:06:56.787601200 -0400
+@@ -375,7 +375,11 @@
+ 
+ 	baseshell = basename(usershell);
+ 
++#if (DROPBEAR_SERVER) && (DROPBEAR_SVR_NO_SHELL_SESSION)
++	if (IS_DROPBEAR_SERVER || cmd != NULL) {
++#else
+ 	if (cmd != NULL) {
++#endif
+ 		argv[0] = baseshell;
+ 	} else {
+ 		/* a login shell should be "-bash" for "/bin/bash" etc */
