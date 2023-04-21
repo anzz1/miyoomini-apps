@@ -15,19 +15,21 @@ Apps for Miyoo Mini / Onion OS
 
 #### B) Using [Vagrant](https://developer.hashicorp.com/vagrant/) / [VirtualBox](https://www.virtualbox.org/) (Windows, x86_64)
 
-1. Make a directory for the container  
+1. Install both [VirtualBox](https://www.virtualbox.org/wiki/Downloads) and [Vagrant](https://developer.hashicorp.com/vagrant/downloads)
+
+2. Make a directory for the container  
 `mkdir C:\vagrant\miyoomini-toolchain && cd /d C:\vagrant\miyoomini-toolchain`
 
-2. Download the miyoomini-toolchain Vagrantfile  
+3. Download the miyoomini-toolchain Vagrantfile  
 `wget https://raw.githubusercontent.com/anzz1/miyoomini-resources/master/miyoomini-toolchain-vagrant/Vagrantfile`
 
-3. Provision the virtual machine  
+4. Provision the virtual machine  
 `vagrant up`
 
-4. Boot up the virtual machine  
+5. Boot up the virtual machine  
 `vagrant up`
 
-5. Connect to miyoomini-toolchain VM  
+6. Connect to miyoomini-toolchain VM  
 `vagrant ssh`  
 or connect via SSH - IP: localhost:2222 / User: docker / Pass: empty  
   
