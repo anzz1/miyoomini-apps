@@ -61,7 +61,7 @@ cd "$SRC_DIR/dropbear-2022.83" && {
 			#define DROPBEAR_DEFAULT_CLI_AUTHKEY ""
 			#define DROPBEAR_USE_PASSWORD_ENV 0
 			#define DROPBEAR_SFTPSERVER 1
-			#define SFTPSERVER_PATH "/mnt/SDCARD/App/Ssh/gesftpserver"
+			#define SFTPSERVER_PATH "/mnt/SDCARD/App/Ssh/sftp-server"
 			#define DROPBEAR_PATH_SSH_PROGRAM ""
 			#define DEFAULT_ROOT_PATH "/usr/sbin:/usr/bin:/sbin:/bin:/config:/customer/app"
 			#define DROPBEAR_SVR_NO_SHELL_SESSION 1
