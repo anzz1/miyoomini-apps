@@ -8,7 +8,7 @@ Apps for Miyoo Mini / Onion OS
 #### A) Using [Docker](https://docs.docker.com/get-docker/) (Linux, MacOS, x86_64, ARM64)
 
 1. Pull the miyoomini-toolchain docker image  
-`docker pull mholdg16/miyoomini-toolchain:latest`
+`docker pull anzz1/miyoomini-toolchain:latest`
 
 2. Boot to the image  
 `docker run -it --rm -v $HOME/workspace:/root/workspace mholdg16/miyoomini-toolchain:latest /bin/bash`
@@ -25,13 +25,10 @@ Apps for Miyoo Mini / Onion OS
 3. Download the miyoomini-toolchain Vagrantfile  
 `wget https://raw.githubusercontent.com/anzz1/miyoomini-resources/master/miyoomini-toolchain-vagrant/Vagrantfile`
 
-4. Provision the virtual machine  
+4. Provision & Boot up the virtual machine  
 `vagrant up`
 
-5. Boot up the virtual machine  
-`vagrant up`
-
-6. Connect to miyoomini-toolchain VM  
+5. Connect to miyoomini-toolchain VM  
 `vagrant ssh`  
 or connect via SSH - IP: localhost:2222 / User: docker / Pass: empty  
   
