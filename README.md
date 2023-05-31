@@ -38,10 +38,9 @@ or connect via SSH - IP: localhost:2222 / User: docker / Pass: empty
 ### 2. Build
 
 1. Clone the repository
-`git clone https://github.com/anzz1/miyoomini-apps.git`
+`git clone --recurse-submodules --remote-submodules https://github.com/anzz1/miyoomini-apps.git`
 
-2. Build the app  
-`cd miyoomini-apps/ssh-server`  
-`./build.sh`
-
-3. The built binaries are in the `bin` folder
+2. Build an app  
+`cd miyoomini-apps`  
+`cd <app>`  
+`./make.sh` or `make platform=miyoomini`

@@ -1,0 +1,4 @@
+[submodule "dropbear-embedded"]
+	path = dropbear-embedded
+	url = https://github.com/anzz1/dropbear-embedded.git
+	branch = miyoomini
