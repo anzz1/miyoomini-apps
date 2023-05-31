@@ -1,5 +1,7 @@
 # miyoomini-apps
-Apps for Miyoo Mini / Onion OS
+Apps for Miyoo Mini
+
+[Resources for Miyoo Mini](https://github.com/anzz1/miyoomini-resources)
 
 ## Build instructions
 
