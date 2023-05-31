@@ -10,3 +10,7 @@
 	path = SDL-1.2
 	url = https://github.com/anzz1/SDL-1.2.git
 	branch = miyoomini
+[submodule "micro-web-server"]
+	path = micro-web-server
+	url = https://github.com/anzz1/micro-web-server.git
+	branch = miyoomini
