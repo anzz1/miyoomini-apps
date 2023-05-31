@@ -6,3 +6,7 @@
 	path = st-sdl
 	url = https://github.com/anzz1/st-sdl.git
 	branch = master
+[submodule "SDL-1.2"]
+	path = SDL-1.2
+	url = https://github.com/anzz1/SDL-1.2.git
+	branch = miyoomini
