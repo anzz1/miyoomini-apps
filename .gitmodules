@@ -2,3 +2,7 @@
 	path = dropbear-embedded
 	url = https://github.com/anzz1/dropbear-embedded.git
 	branch = miyoomini
+[submodule "st-sdl"]
+	path = st-sdl
+	url = https://github.com/anzz1/st-sdl.git
+	branch = master
