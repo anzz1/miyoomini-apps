@@ -9,12 +9,9 @@
  * Audioserver ioctl pipe in: /tmp/audio_ioctl_req
  * Audioserver ioctl pipe out: /tmp/audio_ioctl_res
  *
- * Bypassing the libpadsp mutex locks like this will probably most likely
- * definitely maybe mess with anything else using the audioserver concurrently
+ * Default format: raw pcm, signed 16-bit, little endian, stereo, 48000hz (pcm_s16le)
  *
- * Default format: raw pcm, signed 16-bit, little endian, stereo, 44100hz (pcm_s16le)
- *
- * ffmpeg -y -i in.wav -f s16le -acodec pcm_s16le -ar 44100 -ac 2 out.raw
+ * ffmpeg -y -i in.wav -f s16le -acodec pcm_s16le -ar 48000 -ac 2 out.raw
  *
  */
 
