@@ -40,7 +40,7 @@ or connect via SSH - IP: localhost:2222 / User: docker / Pass: empty
 ### 2. Build
 
 1. Clone the repository  
-`git clone --recurse-submodules --remote-submodules https://github.com/anzz1/miyoomini-apps.git`
+`git clone --recurse-submodules https://github.com/anzz1/miyoomini-apps.git`
 
 2. Build an app  
 `cd miyoomini-apps`  
